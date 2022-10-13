@@ -3,7 +3,7 @@ import "./Navbar.css"
 const Navbar = () => {
     return (
         <nav className="navigationBar">
-            <li>logo</li>
+            <li><img className="logo" src="logo.png" alt="" /></li>
             <li>Vacatures zoeken</li>
             <li>Bedrijfsreviews</li>
             <li>Salarischeck</li>
