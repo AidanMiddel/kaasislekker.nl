@@ -1,6 +1,7 @@
 .about{
     display: flex;
     flex-wrap: flex;
+    margin: 15rem;
 }
 
 .about__article{

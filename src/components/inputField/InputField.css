@@ -1,0 +1,16 @@
+.article{
+    font-size: 100%;
+    padding: 1rem;
+}
+
+.title{
+    padding-bottom: 0.5rem;
+}
+
+.input{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 0.2rem;
+    width: 40rem;
+    border-radius: 0.3rem;
+}
