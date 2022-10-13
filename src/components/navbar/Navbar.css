@@ -1,0 +1,9 @@
+.navigationBar{
+    display: flex;
+    list-style: none;
+    gap: 0.2 rem;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    border-bottom: 0.1rem solid black;
+}

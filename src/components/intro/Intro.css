@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+  }
+
+.container__background{
+    width: 100%;
+}
+
+.container__text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.container__text--header{
+    font-size: 300%;
+    text-shadow: 0.3rem 0.3rem rgb(0, 0, 0,0.2)
+}
+
+.container__text--footer{
+    font-size: 100%;
+    text-shadow: 0.2rem 0.2rem rgb(0, 0, 0,0.2)
+}
