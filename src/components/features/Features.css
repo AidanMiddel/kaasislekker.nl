@@ -1,0 +1,15 @@
+.features{
+    padding-bottom: 3rem;
+}
+
+.features__title{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,29 @@
+.cards{
+    width: 40rem;
+    height: 60rem;
+    flex-direction: column;
+    padding: 1rem;
+    border: 0.3rem solid black;
+    border-radius: 1rem;
+}
+
+.cards__img{
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cards__article{
+    height: 35%;
+}
+
+.cards__h1{
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 150%;
+}
+
+.cards__p{
+    padding: 1rem;
+}
+
