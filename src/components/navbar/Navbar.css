@@ -3,11 +3,16 @@
     list-style: none;
     flex-direction: row;
     justify-content: space-around;
-    padding: 2rem;
+    padding: 1rem;
     border-bottom: 0.1rem solid black;
     align-items: center;
 }
 
 .logo{
     height: 3rem;
+}
+
+.navigationBar--login{
+    color: #2557a7;
+    font-weight: bold;
 }
