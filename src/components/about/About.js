@@ -2,13 +2,18 @@ import "./About.css"
 
 const About = () => {
     return (
-        <div>
-            <article>
-                <header></header>
-                <section></section>
-
+        <div className="about">
+            <article className="about__article">
+                <header className="about__header">
+                    <h1>Over Kaasislekker.nl</h1>
+                </header>
+                <section className="about__section">
+                    <p>
+                        Deze website is onstaan omdat ik van school een React.js website moest maken over eten. 
+                    </p>
+                </section>
             </article>
-            <img src="" alt="" />
+            <img className="about__img" src="/img/about_cheese.jpg" alt="" />
         </div>
     )
 }

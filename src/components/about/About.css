@@ -1,0 +1,19 @@
+.about{
+    display: flex;
+    flex-wrap: flex;
+}
+
+.about__article{
+    width: 50%;
+    padding: 10rem;
+}
+
+.about__header{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.about__img{
+    width: 50%;
+    object-fit: cover;
+}
