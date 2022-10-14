@@ -1,0 +1,15 @@
+.foot{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    border-top: 0.1rem solid black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+
+
+.foot__logo{
+    width: 3rem;
+}

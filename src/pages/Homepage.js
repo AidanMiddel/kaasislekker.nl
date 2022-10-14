@@ -3,6 +3,7 @@ import About from "../components/about/About";
 import Features from "../components/features/Features";
 import FeaturesCard from "../components/featuresCard/FeaturesCard"
 import Contact from "../components/contact/Contact";
+import Foot from "../components/foot/Foot";
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
         <FeaturesCard img="card3.jpg" title="Eerlijke prijzen" subText="Wij beloven altijd de boeren eerlijk te betalen voor de kazen." />
       </Features>
       <Contact />
+      <Foot />
     </>
   );
 }
