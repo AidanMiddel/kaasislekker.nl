@@ -17,7 +17,7 @@ const Foot = () => {
             </section>
             <section className="foot__section">
                 <h1>Socials:</h1>
-                <img className="foot__logo" src="img/insta.png" alt="" /><img className="foot__logo" src="img/face.png" alt="" />
+                <img className="foot__logo foot__logo--insta" src="img/insta.png" alt="" /><img className="foot__logo" src="img/face.png" alt="" />
             </section>
         </article>
     )
