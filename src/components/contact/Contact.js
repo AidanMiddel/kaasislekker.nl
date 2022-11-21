@@ -2,9 +2,9 @@ import Inputfield from "../inputField/InputField"
 
 import "./Contact.css"
 
-const Contact = () => {
+const Contact = (props) => {
     return(
-        <article className="contact">
+        <article className="contact" id={props.id}>
             <h1>Contact:</h1>
             <Inputfield title="Naam:" inputPlaceholder="Uw naam" />
             <Inputfield title="E-mail" inputPlaceholder="naam@domein.nl" />

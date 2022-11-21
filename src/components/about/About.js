@@ -1,8 +1,8 @@
 import "./About.css"
 
-const About = () => {
+const About = (props) => {
     return (
-        <div className="about">
+        <div className="about" id={props.id}>
             <article className="about__article">
                 <header className="about__header">
                     <h1>Over Kaasislekker.nl</h1>
