@@ -1,6 +1,8 @@
+import LoginField from "../components/loginField/loginField";
+
 const Login = () => {
-    return(
-        <input type="text" />
+    return (
+        <LoginField />
     )
 }
 
