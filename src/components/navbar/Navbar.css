@@ -1,39 +1,44 @@
-.navigationBar{
+.navigationBar {
     display: flex;
     list-style: none;
     flex-direction: row;
     justify-content: space-around;
-    padding: 1rem;
-    border-bottom: 0.1rem solid black;
+    border-bottom-color: rgb(228, 226, 224);
+    border-bottom-style: solid;
+    border-bottom-width: 0.666667px;
     align-items: center;
+    height: 7.2rem;
 }
 
-.navigationBar__Link{
+.navigationBar__Link {
     text-decoration: none;
     color: black;
 }
 
-.navigationBar__Link--button{
+.navigationBar__Link--button {
     font-size: 100%;
     padding: 0.5rem;
     height: 100%;
     border: none;
     background: none;
     cursor: pointer;
-    border-bottom: 0.2rem solid #00000000;    
+    border-bottom: 0.2rem solid #00000000;
+    height: 7.2rem;
+    font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
 }
 
-.navigationBar__Link--button:hover{
+.navigationBar__Link--button:hover {
     border-bottom: 0.2rem solid #2557a7;
 }
 
-.logo{
+.logo {
     height: 3rem;
     cursor: pointer;
 }
 
-.navigationBar--login{
+.navigationBar--login {
     color: #2557a7;
     font-weight: bold;
-    
+
 }
