@@ -42,5 +42,6 @@
     .about__img{
         width: 50%;
         object-fit: cover;
+        border-radius: 1rem;
     }
 }
