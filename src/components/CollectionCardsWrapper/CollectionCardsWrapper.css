@@ -1,0 +1,13 @@
+.collectionCardsWrapper{
+    display: flex;
+}
+
+.collectionCardsInfo{
+    width: 50%;
+    height: 100%;
+}
+
+.collectionCards{
+    width: 50%;
+    height: 100%;
+}
