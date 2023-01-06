@@ -1,6 +1,11 @@
+import CollectionCardsWrapper from "../components/CollectionCardsWrapper/CollectionCardsWrapper";
+import CollectionCardsInfo from "../components/CollectionCardsInfo/CollectionCardsInfo";
+import CollectionCards from "../components/CollectionCards/CollectionCards";
 const Collection = () => {
-    return(
-        <h1>hele mooie collection</h1>
+    return (
+        <>
+            <CollectionCardsWrapper/>
+        </>
     )
 }
 
