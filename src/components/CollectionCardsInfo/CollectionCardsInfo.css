@@ -1,0 +1,31 @@
+.collectionCardsInfo__img{
+    width: 100%;
+    aspect-ratio: 16/11;
+    object-fit: cover;
+}
+
+.collectionCardsInfo__name{
+    font-size: 300%;
+}
+
+.collectionCardsInfo__about{
+    font-weight: 400;
+}
+
+.collectionCardsInfo__price{
+    font-weight: 400;
+}
+
+.collectionCardsInfo__extra{
+    font-weight: 400;
+}
+
+.collectionCardsInfo__saveButton{
+    font-size: 110%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border:  none;
+    background: #2557a7;
+    color: white;
+    width: 100%;
+}
