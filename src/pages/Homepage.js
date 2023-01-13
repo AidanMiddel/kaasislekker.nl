@@ -4,7 +4,6 @@ import Features from "../components/features/Features";
 import FeaturesCard from "../components/featuresCard/FeaturesCard"
 import Contact from "../components/contact/Contact";
 import Foot from "../components/foot/Foot";
-import Prices from "../components/prices/Prices";
 
 const Homepage = () => {
   return (

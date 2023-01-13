@@ -1,0 +1,41 @@
+.collectionCard__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.collectionCard {
+  width: 40rem;
+  height: 60rem;
+  flex-direction: column;
+  border: 1px solid #d4d2d0;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgb(45 45 45 / 12%), 0 0.0625rem 0.1875rem rgb(45 45 45 / 16%), 0 0 0.125rem rgb(45 45 45 / 20%);
+}
+
+.collectionCard__img {
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.collectionCard__article {
+  height: 40%;
+  padding: 1rem;
+}
+
+.collectionCard__addButton {
+  background: #2557a7;
+  color: #fff;
+  width: 40rem;
+  height: 60rem;
+  flex-direction: column;
+  padding: 1rem;
+  border: 1px solid #d4d2d0;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgb(45 45 45 / 12%), 0 0.0625rem 0.1875rem rgb(45 45 45 / 16%), 0 0 0.125rem rgb(45 45 45 / 20%);
+  font-size: 110%;
+}

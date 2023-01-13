@@ -1,6 +1,10 @@
+import CollectionCardsWrapper from "../components/CollectionCardsWrapper/CollectionCardsWrapper"
+
 const Collection = () => {
-    return(
-        <h1>hele mooie collection</h1>
+    return (
+        <>
+            <CollectionCardsWrapper/>
+        </>
     )
 }
 
