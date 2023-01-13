@@ -5,6 +5,7 @@
 .collectionCardsInfo{
     width: 50%;
     height: 100%;
+    flex-shrink: 0;
 }
 
 .collectionCards{
