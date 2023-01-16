@@ -1,8 +1,8 @@
 const CollectionCardsData =
     [
-        { id: 1, img: '/img/card1.jpg', title: 'Card 1', content: 'Content for card 1' },
-        { id: 2, img: '/img/card2.jpg', title: 'Card 2', content: 'Content for card 2' },
-        { id: 3, img: '/img/card3.jpg', title: 'Card 3', content: 'Content for card 2' },
+        { id: 1, img: '/img/card1.jpg', title: 'Broodje kaas', content: 'Lekkere broodje kaas', price:'€5', extraContent:"Geweldige broodje kaas uit frankrijk of zoiets" },
+        { id: 2, img: '/img/card2.jpg', title: 'De koe', content: 'De koe maakt melk zodat je kaas kan maken', price:'€300', extraContent:'koeien kunnen gras en water omzetten in melk zodat daar kaas van kan worden gemaakt' },
+        { id: 3, img: '/img/card3.jpg', title: 'kaas', content: 'KAAAAASS' },
     ]
 
 
