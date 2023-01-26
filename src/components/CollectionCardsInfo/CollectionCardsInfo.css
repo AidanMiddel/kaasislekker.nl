@@ -20,6 +20,14 @@
     font-weight: 400;
 }
 
+.collectionCardsInfo__inputField{
+    font-size: 110%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: #2557a7 1px solid;
+    width: 40rem;
+}
+
 .collectionCardsInfo__saveButton{
     font-size: 110%;
     padding: 1rem;

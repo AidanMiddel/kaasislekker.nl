@@ -2,32 +2,26 @@ import React, { useState } from 'react';
 
 import "./CollectionCards.css"
 
+import CollectionCard from '../CollectionCard/CollectionCard';
 import CollectionCardsData from '../../data/CollectionCardsData';
 
-function CollectionCards() {
-  const [cards, setCards] = useState(CollectionCardsData);
+function CollectionCards(props) {
 
-  let collectionCardsToBeRenderd = cards.map(data => {
+  const onCollectionCardClicked = (idFromCollectionCard) => {
+    props.changeCollectionCardId(idFromCollectionCard)
+  }
+
+  let collectionCardsToBeRenderd = props.cards.map(data => {
     return (
-      <div className='collectionCard'>
-        <img className='collectionCard__img' src={data.img} alt="" />
-        <article className='collectionCard__article'>
-          <h3>{data.title}</h3>
-          <p>{data.content}</p>
-        </article>
-      </div>
+      <CollectionCard onCollectionCardClicked={onCollectionCardClicked} key={data.id} id={data.id} img={data.img} title={data.title} content={data.content} />
     )
   })
 
-const addCard = (img, title, content) => {
-  const newCard = { id: cards.length + 1, img, title, content };
-  setCards([...cards, newCard]);
-}
 
 return (
   <div className="collectionCard__container">
     {collectionCardsToBeRenderd}
-    <button className="collectionCard__addButton" onClick={() => addCard('/img/card1.jpg', 'New card', 'New content')}>Add card</button>
+    <button className="collectionCard__addButton" onClick={() => props.addCard('/img/card1.jpg', 'New card', 'New content', '€5', 'New extra info')}>Add card</button>
   </div>
 );
 }
