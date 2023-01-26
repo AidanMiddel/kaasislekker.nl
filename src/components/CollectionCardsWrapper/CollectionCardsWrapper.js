@@ -18,9 +18,11 @@ const CollectionCardsWrapper = (props) => {
         setCards([...cards, newCard]);
       }
 
+    const searchCard = cards?.find((item) => {return item.id === collectCardId});
+
     return (
         <section className="collectionCardsWrapper">
-            <CollectionCardsInfo collectCardId={collectCardId} cards={cards}/>
+            <CollectionCardsInfo searchCard={searchCard} setCards={setCards }/>
             <CollectionCards cards={cards} addCard={addCard} changeCollectionCardId={changeCollectionCardId}/>
         </section>
     )
