@@ -1,3 +1,4 @@
+import Navbar from "../components/navbar/Navbar";
 import Intro from "../components/intro/Intro";
 import About from "../components/about/About";
 import Features from "../components/features/Features";
@@ -8,6 +9,7 @@ import Foot from "../components/foot/Foot";
 const Homepage = () => {
   return (
     <>
+      <Navbar />
       <Intro />
       <About id="over"/>
       <Features id="features" title="Wat wij doen voor U:">

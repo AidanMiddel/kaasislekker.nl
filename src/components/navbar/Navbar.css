@@ -1,4 +1,4 @@
-.navigationBar {
+.navigationBar__ul{
     display: flex;
     list-style: none;
     flex-direction: row;
@@ -7,7 +7,8 @@
     border-bottom-style: solid;
     border-bottom-width: 0.666667px;
     align-items: center;
-    height: 7.2rem;
+    min-height: 7.2rem;
+    flex-shrink: 0;
 }
 
 .navigationBar__Link {
@@ -41,4 +42,15 @@
     color: #2557a7;
     font-weight: bold;
 
+}
+
+@media screen and (max-width: 470px) {
+    .navigationBar__ul{
+        flex-direction: column;
+    }
+
+    .navigationBar__Link--button{
+        padding: 0;
+    }
+    
 }
