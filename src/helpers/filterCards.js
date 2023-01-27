@@ -9,5 +9,6 @@ export const filterCards = (nameToBeSearched) => {
         if (collectionCard.title.indexOf(nameToBeSearched) !== -1){
             return collectionCard
         }
+        return null
     })
 }
