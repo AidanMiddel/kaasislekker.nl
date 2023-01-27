@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import "./CollectionCards.css"
 
 import CollectionCard from '../CollectionCard/CollectionCard';
-import CollectionCardsData from '../../data/CollectionCardsData';
 
 function CollectionCards(props) {
 
