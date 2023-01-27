@@ -22,7 +22,7 @@ const About = (props) => {
                     </p>
                 </section>
             </article>
-            <img className="about__img" src="/img/about_cheese.jpg" alt="" />
+            <img className="about__img" src="/img/about_cheese.webp" alt="" />
         </div>
     )
 }
