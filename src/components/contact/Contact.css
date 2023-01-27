@@ -5,3 +5,14 @@
     align-items: center;
     padding-bottom: 2rem;
 }
+
+.sendButton{
+    font-size: 110%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border:  none;
+    background: #2557a7;
+    color: white;
+    width: 40rem;
+    cursor: pointer;
+}

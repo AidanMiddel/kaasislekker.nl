@@ -18,9 +18,9 @@ const Homepage = () => {
         <FeaturesCard img="card3.webp" title="Eerlijke prijzen" subText="Wij beloven altijd de boeren eerlijk te betalen voor de kazen." />
       </Features>
       <Features id="prijs" title="Abonnementen:">
-        <FeaturesCard img="tier1.webp" title="BASIC - €20 p/m" subText="Blauwschimmelkaas, ook wel blauwaderkaas genoemd, is een type schimmelkaas met een blauwe schimmel (Penicillium roqueforti) als opvallendste kenmerk. Roquefort, een schapenkaas uit Frankrijk is een goed voorbeeld. Een goedkopere soort is Bleu d'Auvergne, deze is gemaakt van koemelk." />
-        <FeaturesCard img="tier2.webp" title="STANDARD - €35 p/m" subText="Naargelang de textuur van het zuivel kunnen de Zwitserse kazen onderverdeeld worden in verschillende categorieën: extra harde kaas, harde kaas, halfharde kaas, zachte kaas, roomkaas, smeerkaas en smeltkaas." />
-        <FeaturesCard img="tier3.webp" title="PREMIUM - €50 p/m" subText="Naargelang de textuur van het zuivel kunnen de Zwitserse kazen onderverdeeld worden in verschillende categorieën: extra harde kaas, harde kaas, halfharde kaas, zachte kaas, roomkaas, smeerkaas en smeltkaas." />
+        <FeaturesCard img="tier1.webp" title="BASIC - €20 p/m" subText="Met het BASIC abonnement krijgt u maandelijks 5 van de meest populaire kaassoorten toegestuurd, waarmee u kunt ontdekken welke kaas bij u past." />
+        <FeaturesCard img="tier2.webp" title="STANDARD - €35 p/m" subText="Met het STANDARD abonnement krijgt u maandelijks 10 verschillende kaassoorten toegestuurd met meer variatie, waarmee u uw kaaskennis kunt verdiepen." />
+        <FeaturesCard img="tier3.webp" title="PREMIUM - €50 p/m" subText="Met het PREMIUM abonnement krijgt u maandelijks 15 van onze meest exclusieve en zeldzame kaassoorten toegestuurd, waarmee u kunt genieten van unieke smaken en texturen die niet overal verkrijgbaar zijn." />
       </Features>
       <Contact id="contact" />
       <Foot />
