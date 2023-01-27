@@ -3,7 +3,7 @@ import "./FeaturesCard.css"
 const FeaturesCard = (props) => {
     let cardImage = "/img/" + props.img
     if (props.img === undefined) {
-        cardImage = "/img/about_cheese.jpg"
+        cardImage = "/img/about_cheese.webp"
     }
     return (
 

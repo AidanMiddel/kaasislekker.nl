@@ -1,7 +1,8 @@
 import "./loginField.css"
 import { Link } from "react-router-dom";
 
-const LoginField = () => {
+const LoginField = (props) => {
+
     return (
         <article className="login__article">
             <section className="login__section">
@@ -10,7 +11,7 @@ const LoginField = () => {
                 <p className="login__header">Wacthwoord:</p>
                 <input className="login__input" type="text" />
                 <Link to="/collection">
-                    <button className="login__button">Log-in</button>
+                    <button onClick={() => props.enableLogin(true)} className="login__button">Log-in</button>
                 </Link>
             </section>
         </article>

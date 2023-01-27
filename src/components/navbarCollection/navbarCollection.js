@@ -7,7 +7,7 @@ const navbarCollection = () => {
             <ul className="navigationBar__ul">
                 <li>
                     <LinkRouter className="navigationBar__Link" to="/">
-                        <img className="logo" src="logo.png" alt="" />
+                        <img className="logo" src="logo.webp" alt="" />
                     </LinkRouter>
                 </li>
                 <li>

@@ -1,13 +1,11 @@
 import CollectionCardsData from "../data/CollectionCardsData";
 
 
-export const filterCards = (nameToBeSearched) => {
+export const filterCards = (nameToBeSearched, milkToBeSearched) => {
     return CollectionCardsData.filter(collectionCard => {
-        if (collectionCard.title.indexOf(nameToBeSearched.charAt(0).toUpperCase() + nameToBeSearched.slice(1).toLowerCase()) !== -1) {
+        if (collectionCard.land.indexOf(nameToBeSearched) !== -1 && collectionCard.melk.indexOf(milkToBeSearched) !== -1) {
             return collectionCard
         }
-        if (collectionCard.title.indexOf(nameToBeSearched) !== -1){
-            return collectionCard
-        }
+        return null
     })
 }

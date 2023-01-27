@@ -5,14 +5,12 @@ import "./CollectionCardsInfo.css";
 
 const CollectionCardsInfo = (props) => {
     const [edit, setEdit] = useState(false)
-    const [editCard, setEditCard] = useState("")
     const [titleState, setTitlestate] = useState("")
     const [contentState, setContentState] = useState("")
     const [priceState, setPriceState] = useState("")
     const [extraContentState, setExtraContentState] = useState("")
 
     useEffect(() => {
-        setEditCard(props.searchCard)
         setTitlestate(props.searchCard.title)
         setContentState(props.searchCard.content)
         setPriceState(props.searchCard.price)
@@ -35,8 +33,6 @@ const CollectionCardsInfo = (props) => {
         setExtraContentState(event.target.value)
     }
 
-    console.log(props)
-
     const submit = (event) => {
         event.preventDefault();
         saveCard()
@@ -47,13 +43,13 @@ const CollectionCardsInfo = (props) => {
     }
 
     let editMode = (
-        <div>
+        <div className="collectionCardsInfo__div">
             <img className="collectionCardsInfo__img" src={props.searchCard.img} alt="" />
             <h1 className="collectionCardsInfo__name">{props.searchCard.title}</h1>
-            <h2 className="collectionCardsInfo__about">{props.searchCard.content}</h2>
+            <h3 className="collectionCardsInfo__about">{props.searchCard.content}</h3>
             <h2 className="collectionCardsInfo__price">{props.searchCard.price}</h2>
-            <h3 className="collectionCardsInfo__extra">{props.searchCard.extraContent}</h3>
-            <button onClick={() => setEdit(!edit)} className="collectionCardsInfo__saveButton">edit</button>
+            <h4 className="collectionCardsInfo__extra">{props.searchCard.extraContent}</h4>
+            <button onClick={() => setEdit(!edit)} className="collectionCardsInfo__saveButton">Aanpassen</button>
         </div>
     )
     if (edit === true) {
@@ -65,7 +61,7 @@ const CollectionCardsInfo = (props) => {
                     <textarea className="collectionCardsInfo__inputField" type="text" rows={4} value={contentState} onChange={handleContent} />
                     <input className="collectionCardsInfo__inputField" type="text" value={priceState} onChange={handlePrice} />
                     <textarea className="collectionCardsInfo__inputField collectionCardsInfo__textEara" rows={10} type="text" value={extraContentState} onChange={handleExtraContent} />
-                    <button onClick={submit} className="collectionCardsInfo__saveButton">save</button>
+                    <button onClick={submit} className="collectionCardsInfo__saveButton">Opslaan</button>
                 </form>
             </div>)
     }

@@ -4,7 +4,7 @@ import CollectionCardsData from "../../data/CollectionCardsData";
 import CollectionCards from "../CollectionCards/CollectionCards";
 import { useState } from "react";
 
-const CollectionCardsWrapper = (props) => {
+const CollectionCardsWrapper = () => {
     const [cards, setCards] = useState(CollectionCardsData);
 
     const [collectCardId, setCollectionCardId] = useState(1)
