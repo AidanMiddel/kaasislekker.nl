@@ -5,39 +5,40 @@ import "./Navbar.css"
 
 const Navbar = () => {
     return (
-        <div className="navigationBar">
-            <LinkRouter className="navigationBar__Link" to="/">
+        <nav className="navigationBar">
+            <ul className="navigationBar__ul">
                 <li>
-                    <img className="logo" src="logo.png" alt="" />
+                    <LinkRouter className="navigationBar__Link" to="/">
+                        <img className="logo" src="logo.png" alt="" />
+                    </LinkRouter>
                 </li>
-            </LinkRouter>
-            <LinkScroll to="over" spy={true} smooth={true} offset={0} duration={500}>
                 <li>
-                    <button className="navigationBar__Link--button">Over</button>
+                    <LinkScroll to="over" spy={true} smooth={true} offset={0} duration={500}>
+                        <button className="navigationBar__Link--button">Over</button>
+                    </LinkScroll>
                 </li>
-            </LinkScroll>
-            <LinkScroll to="features" spy={true} smooth={true} offset={0} duration={500}>
                 <li>
-                    <button className="navigationBar__Link--button">Features</button>
+                    <LinkScroll to="features" spy={true} smooth={true} offset={0} duration={500}>
+                        <button className="navigationBar__Link--button">Features</button>
+                    </LinkScroll>
                 </li>
-            </LinkScroll>
-            <LinkScroll to="prijs" spy={true} smooth={true} offset={0} duration={500}>
                 <li>
-                    <button className="navigationBar__Link--button">Prijs</button>
+                    <LinkScroll to="prijs" spy={true} smooth={true} offset={0} duration={500}>
+                        <button className="navigationBar__Link--button">Prijs</button>
+                    </LinkScroll>
                 </li>
-            </LinkScroll>
-            <LinkScroll to="contact" spy={true} smooth={true} offset={0} duration={500}>
                 <li>
-                    <button className="navigationBar__Link--button">Contact</button>
+                    <LinkScroll to="contact" spy={true} smooth={true} offset={0} duration={500}>
+                        <button className="navigationBar__Link--button">Contact</button>
+                    </LinkScroll>
                 </li>
-            </LinkScroll>
-
-            <LinkRouter className="navigationBar__Link" to="/login">
                 <li>
-                    <button className="navigationBar__Link--button navigationBar--login">Inloggen</button>
+                    <LinkRouter className="navigationBar__Link" to="/login">
+                        <button className="navigationBar__Link--button navigationBar--login">Inloggen</button>
+                    </LinkRouter>
                 </li>
-            </LinkRouter>
-        </div>
+            </ul>
+        </nav>
     )
 }
 
