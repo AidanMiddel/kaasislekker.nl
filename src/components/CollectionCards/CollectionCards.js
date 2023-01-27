@@ -1,9 +1,6 @@
-import React, { useState } from 'react';
-
 import "./CollectionCards.css"
 
 import CollectionCard from '../CollectionCard/CollectionCard';
-import CollectionCardsData from '../../data/CollectionCardsData';
 
 function CollectionCards(props) {
 
@@ -21,7 +18,6 @@ function CollectionCards(props) {
 return (
   <div className="collectionCard__container">
     {collectionCardsToBeRenderd}
-    <button className="collectionCard__addButton" onClick={() => props.addCard('/img/card1.jpg', 'New card', 'New content', '€5', 'New extra info')}>Add card</button>
   </div>
 );
 }

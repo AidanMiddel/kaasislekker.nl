@@ -1,3 +1,14 @@
+.collectionCardsInfo{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.collectionCardsInfo__div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .collectionCardsInfo__img{
     width: 100%;
     aspect-ratio: 16/11;
@@ -20,12 +31,23 @@
     font-weight: 400;
 }
 
+.collectionCardsInfo__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
 .collectionCardsInfo__inputField{
     font-size: 110%;
     padding: 1rem;
     border-radius: 1rem;
     border: #2557a7 1px solid;
-    width: 40rem;
+    width: 100%;
+}
+
+.collectionCardsInfo__textEara{
+    font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .collectionCardsInfo__saveButton{
