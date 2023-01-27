@@ -49,7 +49,7 @@ const CollectionCardsInfo = (props) => {
             <h3 className="collectionCardsInfo__about">{props.searchCard.content}</h3>
             <h2 className="collectionCardsInfo__price">{props.searchCard.price}</h2>
             <h4 className="collectionCardsInfo__extra">{props.searchCard.extraContent}</h4>
-            <button onClick={() => setEdit(!edit)} className="collectionCardsInfo__saveButton">edit</button>
+            <button onClick={() => setEdit(!edit)} className="collectionCardsInfo__saveButton">Aanpassen</button>
         </div>
     )
     if (edit === true) {
@@ -61,7 +61,7 @@ const CollectionCardsInfo = (props) => {
                     <textarea className="collectionCardsInfo__inputField" type="text" rows={4} value={contentState} onChange={handleContent} />
                     <input className="collectionCardsInfo__inputField" type="text" value={priceState} onChange={handlePrice} />
                     <textarea className="collectionCardsInfo__inputField collectionCardsInfo__textEara" rows={10} type="text" value={extraContentState} onChange={handleExtraContent} />
-                    <button onClick={submit} className="collectionCardsInfo__saveButton">save</button>
+                    <button onClick={submit} className="collectionCardsInfo__saveButton">Opslaan</button>
                 </form>
             </div>)
     }
