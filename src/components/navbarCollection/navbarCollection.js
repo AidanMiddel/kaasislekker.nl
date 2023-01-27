@@ -2,6 +2,11 @@ import { Link as LinkRouter } from "react-router-dom";
 import "../navbar/Navbar.css"
 
 const navbarCollection = () => {
+
+    const share = () =>{
+        navigator.clipboard.writeText('https://www.kaasislekker.nl')
+        alert("Link naar site is gekopiëerd!")
+    }
     return (
         <nav className="navigationBar">
             <ul className="navigationBar__ul">
@@ -26,9 +31,7 @@ const navbarCollection = () => {
                     </LinkRouter>
                 </li>
                 <li>
-                    <LinkRouter className="navigationBar__Link" to="/login">
-                        <button className="navigationBar__Link--button navigationBar--login">Delen</button>
-                    </LinkRouter>
+                    <button onClick={share} className="navigationBar__Link--button navigationBar--login">Delen</button>
                 </li>
             </ul>
         </nav >
