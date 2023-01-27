@@ -1,8 +1,8 @@
 import LoginField from "../components/loginField/loginField";
 
-const Login = () => {
+const Login = (props) => {
     return (
-        <LoginField />
+        <LoginField enableLogin={props.enableLogin} />
     )
 }
 
