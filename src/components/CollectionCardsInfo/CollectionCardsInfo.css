@@ -1,3 +1,14 @@
+.collectionCardsInfo{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.collectionCardsInfo__div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .collectionCardsInfo__img{
     width: 100%;
     aspect-ratio: 16/11;
